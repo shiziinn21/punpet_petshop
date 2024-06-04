@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>PetShop Punpet</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+        <img src="imagens/logo.png" id="nav_logo">
+
+        <ul id="nav_list">
+            <li class="nav-item active">
+                <a href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#pets">Pets</a>
+            </li>
+            <li class="nav-item">
+                <a href="#serviços">Serviços</a>
+            </li>
+        </ul>
+
+        <button class="btn-default">Cadastre-se</button>
+
+        <button id="mobile_btn">
+            <i class="fa-solid fa-bars"></i> 
+        </button>
+        </nav>
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item ">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pets">Pets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#serviços">Serviços</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">Cadastre-se</button>
+    
+        </div>
+
+    </header>
+
+    <main id="content">
+
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title"> 
+                    Um mundo de <span>amor</span> em cada patinha 
+                </h1>
+
+                <p class="descrição"> 
+                    Produtos e cuidados de qualidade
+                    para garantir a felicidade e saúde do seu pet
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver serviços
+                    </a>
+                
+                    <a href="tel:+55(21)99999-9999" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (21) 99999-9999
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+
+                    <a href="" >
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                
+                    <a href="" id="insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="" id="face">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="imagens/dog.png" alt="">
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
