@@ -11,6 +11,7 @@
     flex-direction: column;
     gap: 28px;
     margin-top: 5%;
+
 }
 
 #cta .title {
@@ -78,9 +79,9 @@
 .shape {
     background-color: #fea22933;
     width: 50%;
-    height: 60%;
+    height: 50%;
     position: absolute;
-    border-radius: 100% 0% 0% 20%;
+    border-radius: 100% 0% 0% 0%;
     top: 40;
     right: 0;
     z-index: 1;
@@ -88,4 +89,25 @@
     
 }
 
+@media screen and (max-width: 1170px) {
 
+    #nav_logo{
+        width: 40%;
+    }
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img,
+    #home .shape {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
